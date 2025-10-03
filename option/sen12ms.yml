@@ -21,7 +21,7 @@ datasets:
     # data loader
     use_shuffle: true
     num_worker_per_gpu: 8
-    batch_size_per_gpu: 1
+    batch_size_per_gpu: 4
 
     ### ------- Training on single fixed-patch size 128x128---------
     mini_batch_sizes: [4]
