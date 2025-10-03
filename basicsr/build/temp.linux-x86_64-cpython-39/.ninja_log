@@ -1,0 +1,3 @@
+# ninja log v5
+0	27970	1723972511554187061	/data/wy/code/Mamba/org-restormer/linear_attn_uni/basicsr/build/temp.linux-x86_64-cpython-39/causal_product/causal_product_cpu.o	66a691f630c06724
+9	71428	1723973060464996045	/data/wy/code/Mamba/org-restormer/linear_attn_uni/basicsr/build/temp.linux-x86_64-cpython-39/causal_product/causal_product_cuda.o	e3cb4b92cc8b0297

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0  python  basicsr/test.py --opt_yml option/rice2.yml  --result_dir ./output/RICE2  --weights  ./experiments/RICE2/models/model_best.pth  --input_dir ./dataset/RICE_DATASET/RICE2/test/input  --input_truth_dir  ./dataset/RICE_DATASET/RICE2/test/target

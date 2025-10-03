@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=7  python  basicsr/test.py --opt_yml option/TCloud.yml  --result_dir ./output/TCloud  --weights  ./experiments/T-Cloud/models/model_best.pth  --input_dir ./dataset/T-Cloud/test/input  --input_truth_dir ./dataset/T-Cloud/test/target

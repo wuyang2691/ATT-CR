@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=7  python  basicsr/test.py --opt_yml option/rice1.yml  --result_dir ./output/RICE1  --weights  ./experiments/RICE1/models/model_best.pth  --input_dir ./dataset/RICE_DATASET/RICE1/test/input  --input_truth_dir  ./dataset/RICE_DATASET/RICE1/test/target

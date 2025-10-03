@@ -1,0 +1,1 @@
+python ./basicsr/senms_predict.py
