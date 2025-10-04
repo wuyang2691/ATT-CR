@@ -91,9 +91,9 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun   --nproc_per_node=4   --master_port=3457 
 ## 4. Testing / Inference  
 
 ### 4.1 Pre-trained Models  
-Pre-trained checkpoints are available in `experiments/`.  
+Pre-trained checkpoints are available in [`experiments/`]( https://pan.baidu.com/s/1ZGsZvL_aiT2tZxYO66uwpw?pwd=d1iq ).  
 - Example: `experiments/RICE1/models/model_best.pth`  
-- If using your own trained models, update the checkpoint path in the YAML file.  
+- If using your own trained models, update the '--weights' in the .sh file.  
 
 ### 4.2 Run Testing  
 
